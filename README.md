@@ -1,4 +1,4 @@
-                                *PWNKIT*
+                                PWNKIT
                                 
 _A Password Security Toolkit for Demonstrating Basic Hashing Techniques_ 
          _and Breach Database Lookup with AI-assisted Analysis in_ 

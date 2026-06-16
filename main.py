@@ -48,7 +48,7 @@ BREACH_FILE   = Path("pwned/breached_sha1.txt")
 WORDLIST_FILE = Path("wordlist/wordlist.txt")
 REPORTS_DIR   = Path("reports")
 
-# Create folders on first run so nothing crashes
+# Creates folders on first run so nothing crashes
 Path("pwned").mkdir(exist_ok=True)
 Path("wordlist").mkdir(exist_ok=True)
 REPORTS_DIR.mkdir(exist_ok=True)

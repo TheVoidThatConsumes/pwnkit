@@ -116,4 +116,4 @@ Do not use this tool to test or crack passwords without explicit permission.
 
 ## Author:
     Davide Obi  
-    [github.com/TheVoidThatConsumes](https://github.com/TheVoidThatConsumes)
+    [github.com/TheVoidThatConsumes]

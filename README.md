@@ -1,7 +1,6 @@
 # pwnkit — Password Security Toolkit
 
-A command-line tool that tests how safe a password is.  
-Built as a cybersecurity portfolio project.
+A Python command-line tool that tests how safe a password is. Built as a cybersecurity portfolio project to demonstrate knowledge of hashing algorithms and their efficiency.
 
 ---
 

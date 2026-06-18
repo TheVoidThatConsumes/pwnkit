@@ -53,17 +53,17 @@ python main.py hash    "yourpassword"
 ```
 <img width="702" height="176" alt="hash_samp" src="https://github.com/user-attachments/assets/240448be-6dad-446a-b669-e16107c757a6" />
 
-```
+```bash
 python main.py crack   "yourpassword"
 ```
 <img width="452" height="124" alt="crack_samp" src="https://github.com/user-attachments/assets/7ba9ac0f-b3c0-4e10-a02f-6aefa96c06c3" />
 
-```
+```bash
 python main.py breach  "yourpassword"
 ```
 <img width="470" height="123" alt="breach_samp" src="https://github.com/user-attachments/assets/223bc408-6c38-4160-9786-19b575549d6b" />
 
-```
+```bash
 python main.py report  "yourpassword"
 ```
 <img width="419" height="121" alt="report_samp" src="https://github.com/user-attachments/assets/c19521c8-b517-4935-9917-0a7ca5591696" />

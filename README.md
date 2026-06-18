@@ -19,9 +19,12 @@ A Python command-line tool that tests how safe a password is. Built as a cyberse
 
 - Python 3.10 or higher
 - The following packages:
-
+  -bcrypt
+  -argon2
+  -matploitlib
+  
 ```bash
-pip install -r requirements.txt
+pip install bcrypt argon2-cffi matplotlib
 ```
 
 ---

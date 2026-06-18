@@ -1,6 +1,6 @@
 # pwnkit — Password Security Toolkit
 
-A Python command-line tool that tests how safe a password is. Built as a cybersecurity portfolio project to demonstrate knowledge of hashing algorithms and their efficiency.
+A Python command-line tool that tests how safe a password is with the option to generate a PNG report. Built as a cybersecurity portfolio project to demonstrate knowledge of hashing algorithms and their efficiency.
 
 ---
 
@@ -36,7 +36,7 @@ pip install bcrypt argon2-cffi matplotlib
    ```bash
    pip install -r requirements.txt
    ```
-3. Already included are demo data files for demo or educational purposes, but you can add your own to:
+3. Already included are demo data files that I've modified and trimmed down for demo or educational purposes as the SHA keybase is larger than Github can handle, but you can find your own on the internet and add them to these folders:
    - `pwned/breached_sha1.txt` — for a larger SHA-1 breach hash list  
      Download free from [haveibeenpwned.com/Passwords](https://haveibeenpwned.com/Passwords)
    - `wordlist/wordlist.txt` — for a larger password wordlist  
@@ -74,27 +74,6 @@ Reports are saved to the `reports/` folder automatically.
 
 ---
 
-## Example output
-
-```
-Password Hash Output
-------------------------------------------------------------
-Length   : 8
-MD5      : 5f4dcc3b5aa765d61d8327deb882cf99
-SHA-1    : 5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8
-SHA-256  : 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
-bcrypt   : $2b$12$...
-Argon2id : $argon2id$...
-```
-
-```
-Breach Check
-------------------------------------------------------------
-FOUND in breach database — do not use this password.
-```
-
----
-
 ## How the checks work
 
 **Hashing**  
@@ -119,7 +98,7 @@ Do not use this tool to test or crack passwords without explicit permission.
 
 ---
 
-## Skills demonstrated
+## Skills demonstrated:
 
 - Python scripting and CLI design
 - Cryptographic hashing (MD5, SHA-1, SHA-256, bcrypt, Argon2id)

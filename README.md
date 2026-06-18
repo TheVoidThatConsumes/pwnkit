@@ -70,7 +70,7 @@ python main.py report  "yourpassword"
 
 ```
 
-## How the checks work
+## **HOW THE CHECKS WORK**
 
 **Hashing**  
 Converts the password into a scrambled string using different algorithms. MD5 and SHA-256 are fast — an attacker can test millions per second. bcrypt and Argon2id are intentionally slow, making brute-force attacks impractical. This is why modern systems use them for password storage.

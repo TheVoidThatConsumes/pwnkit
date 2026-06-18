@@ -70,8 +70,6 @@ python main.py report  "yourpassword"
 
 ```
 
-
-
 ## How the checks work
 
 **Hashing**  

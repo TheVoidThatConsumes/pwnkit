@@ -37,10 +37,10 @@ pip install bcrypt argon2-cffi matplotlib
    pip install -r requirements.txt
    ```
 3. Already included are demo data files that I've modified and trimmed down for demo or educational purposes as the SHA keybase is larger than Github can handle, but you can find your own on the internet and add them to these folders:
-   - `pwned/breached_sha1.txt` — for a larger SHA-1 breach hash list  
-     Download free from [haveibeenpwned.com/Passwords](https://haveibeenpwned.com/Passwords)
-   - `wordlist/wordlist.txt` — for a larger password wordlist  
-     Example: [SecLists rockyou](https://github.com/danielmiessler/SecLists)
+   - `pwned/breached_sha1.txt`
+   - for a larger SHA-1 breach hash list, download free from [haveibeenpwned.com/Passwords](https://haveibeenpwned.com/Passwords)
+   - `wordlist/wordlist.txt`
+   - for larger password wordlists, try [SecLists rockyou](https://github.com/danielmiessler/SecLists)
 
 ---
 
@@ -70,9 +70,7 @@ python main.py report  "yourpassword"
 
 ```
 
-Reports are saved to the `reports/` folder automatically.
 
----
 
 ## How the checks work
 

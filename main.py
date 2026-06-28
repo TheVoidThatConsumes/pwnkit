@@ -23,7 +23,6 @@ Usage:
     python main.py crack   <password>
     python main.py breach  <password>
     python main.py report  <password>
-    python main.py report  <password> myfile.png
 """
 
 import hashlib

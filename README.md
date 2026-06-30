@@ -95,15 +95,4 @@ Do not use this tool to test or crack passwords without explicit permission.
 
 ---
 
-## Skills demonstrated:
 
-- Python scripting and CLI design
-- Cryptographic hashing (MD5, SHA-1, SHA-256, bcrypt, Argon2id)
-- Offline breach database lookup
-- Dictionary attack simulation
-- Data visualisation with matplotlib
-- Secure coding practices
-
----
-
-dThatConsumes]
